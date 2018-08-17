@@ -1,0 +1,30 @@
+micronaut:
+    application:
+        name: complete
+#tag::security[]
+micronaut:
+  security:
+    enabled: true # <1>
+    endpoints:
+      login:
+        enabled: true # <2>
+      logout:
+        enabled: true # <3>
+    session:
+      enabled: true # <4>
+      loginSuccessTargetUrl: / # <5>
+      loginFailureTargetUrl: /login/authFailed # <6>
+      unauthorizedTargetUrl: /login/auth # <6>
+      forbiddenTargetUrl: /login/auth # <6>
+    interceptUrlMap:
+    -
+      pattern: /
+      method: GET
+      access:
+         - isAuthenticated()
+    -
+      pattern: /login/*
+      access:
+        - isAnonymous()
+    -
+#end::security[]

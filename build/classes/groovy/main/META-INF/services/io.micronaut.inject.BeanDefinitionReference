@@ -1,0 +1,3 @@
+example.micronaut.controllers.$HomeControllerDefinitionClass
+example.micronaut.controllers.$LoginAuthControllerDefinitionClass
+example.micronaut.services.$AuthenticationProviderUserPasswordDefinitionClass

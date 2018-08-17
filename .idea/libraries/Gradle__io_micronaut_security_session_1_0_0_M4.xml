@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:security-session:1.0.0.M4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/security-session/1.0.0.M4/d5088abb0a79136aabfc64d93e40b43a3c14cad7/security-session-1.0.0.M4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/security-session/1.0.0.M4/c1d292ab27f56a27e7a06db2b684ea8e858c75f7/security-session-1.0.0.M4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
